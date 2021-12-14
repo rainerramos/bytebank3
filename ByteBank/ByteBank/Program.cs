@@ -26,7 +26,7 @@ namespace ByteBank
             roberta.Salario = 5000;
 
             gerenciador.Registrar(roberta);
-                       
+                                               
             Console.WriteLine(carlos.Nome);
             Console.WriteLine(carlos.GetBonificacao());
 
