@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ByteBank
 {
-    internal class ParceiroComercial
+    public class ParceiroComercial
     {
+        public string Senha { get; set; }
+        public bool Autenticar(string senha)
+        {
+            return senha == senha;
+        }
     }
 }
